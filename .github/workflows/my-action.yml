@@ -13,4 +13,4 @@ jobs:
       - name: Install Angular Dependency
         run: cd ui; npm install --legacy-peer-deps
       - name: Build Angular App
-        run: cd ui; ng build
+        run: cd ui; npm run build
