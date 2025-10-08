@@ -13,7 +13,7 @@ jobs:
       - name: Navigate to UI directory
         run: cd ui
       - name: PWD
-        run: pwd
+        run: cd ui; pwd
       - name: List
         run: ls -ltr
       - name: Install Angular Dependency
