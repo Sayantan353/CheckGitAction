@@ -12,6 +12,10 @@ jobs:
           node-version: '20'
       - name: Navigate to UI ddirectory
         run: cd ui
+      - name: PWD
+        run: pwd
+      - name: List
+        run: ls -ltr
       - name: Install Angular Dependency
         run: npm install
       - name: Build Angular App
