@@ -10,7 +10,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Navigate to UI ddirectory
+      - name: Navigate to UI directory
         run: cd ui
       - name: PWD
         run: pwd
