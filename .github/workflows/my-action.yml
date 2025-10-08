@@ -10,13 +10,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Navigate to UI directory
-        run: cd ui
-      - name: PWD
-        run: cd ui; pwd
-      - name: List
-        run: ls -ltr
       - name: Install Angular Dependency
-        run: npm install
+        run: cd ui; npm install
       - name: Build Angular App
-        run: ng build
+        run: cd ui; ng build
